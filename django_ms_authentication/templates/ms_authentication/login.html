@@ -4,8 +4,8 @@
 <!-- <HomeSnippet> -->
 {% extends "ms_authentication/layout.html" %}
 {% block content %}
-<div class="jumbotron">
-  <h1>FlowFactory - Project Explorer</h1>
+<div class="jumbotron" id="user-jumbotron">
+  <h1>MS Authentication Example</h1>
   <p class="lead">Sample Comments</p>
   {% if user.is_authenticated %}
     <h4>Welcome {{ user.name }}!</h4>
