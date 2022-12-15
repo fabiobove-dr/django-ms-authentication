@@ -28,3 +28,6 @@ The application needs to be configured as multitenant on the Azure panel.
 <br>
 # Lyouts and templates
 The lyouts of the pages can be modified and is stored in the templates and static directories.<br>
+
+
+#Enjoy ;)
