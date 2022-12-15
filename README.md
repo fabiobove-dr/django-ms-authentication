@@ -16,7 +16,7 @@ The "/django_ms_authentication" folder instead is the directory of the whole pro
 For the authentication we need to register the application on Azure, and then create a "oauth_settings.yml" file
 that needs to be stored in the main project folder ("/django_ms_authentication")<br>
 <br>
-app_id: "2" <br>
+app_id: "" <br>
 app_secret: "" <br>
 redirect: "http://localhost:8000/callback" <br>
 scopes: ""<br>
