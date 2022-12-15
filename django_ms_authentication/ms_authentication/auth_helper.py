@@ -1,3 +1,7 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
+# <FirstCodeSnippet>
 import yaml
 from requests_oauthlib import OAuth2Session
 import os
@@ -47,7 +51,7 @@ def get_token_from_code(callback_url, expected_state):
 
 
 # </FirstCodeSnippet>
-"""
+
 def store_token(request, token):
     request.session['oauth_token'] = token
 
@@ -100,4 +104,3 @@ def remove_user_and_token(request):
 
     if 'user' in request.session:
         del request.session['user']
-"""
