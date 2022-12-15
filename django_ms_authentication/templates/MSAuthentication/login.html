@@ -1,0 +1,17 @@
+<!-- Copyright (c) Microsoft Corporation.
+     Licensed under the MIT License. -->
+
+<!-- <HomeSnippet> -->
+{% extends "MSAuthentication/layout.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>FlowFactory - Project Explorer</h1>
+  <p class="lead">Sample Comments</p>
+  {% if user.is_authenticated %}
+    <h4>Welcome {{ user.name }}!</h4>
+  {% else %}
+    <a href="{% url 'signin' %}" class="btn btn-primary btn-large">Log In</a>
+  {% endif %}
+</div>
+{% endblock %}
+<!-- </HomeSnippet> -->
