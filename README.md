@@ -1,5 +1,5 @@
 # Django and MS Graph APIs Integration
-A sample user authentication using Microsoft Graph APIs<br>
+A simple integration for Django user authentication using Microsoft Graph APIs<br>
 Fabio Bove | fabio.bove.dr@gmail.com | 216219@studenti.unimore.it<br>
 
 This is an example of integration between MS Graph APIs and Django.<br>
