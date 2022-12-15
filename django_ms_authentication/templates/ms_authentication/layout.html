@@ -30,12 +30,12 @@
             </li>
             {% if user.is_authenticated %}
               <li class="nav-item" data-turbolinks="false">
-                <a class="nav-link active" href="{% url 'projects' %}">Projects</a>
+                <a class="nav-link active" href="{% url 'login' %}">Hidden Page</a>
               </li>
             {% endif %}
             {% if user.is_authenticated %}
             <li class="nav-item" data-turbolinks="false">
-              <a class="nav-link active" href="{% url 'add-project' %}">Add Project</a>
+              <a class="nav-link active" href="{% url 'login' %}">Another Hidden Page</a>
             </li>
             {% endif %}
           </ul>
